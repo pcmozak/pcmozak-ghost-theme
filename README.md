@@ -1,3 +1,5 @@
+# pcmozak-ghost-theme
+Ghost theme for blog.pcmozak.com
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
