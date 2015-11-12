@@ -1034,7 +1034,9 @@ body.nav-opened .nav {
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
-
+.tag-title{
+    font-size: 11rem;
+}
 .tag-counter {
     position: relative;
     margin: 24px;
