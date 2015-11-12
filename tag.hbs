@@ -12,11 +12,11 @@
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{tag.name}}</h1>
-            <h2 class="page-description">
+            <h2 class="page-description tag-counter">
                 {{#if tag.description}}
                     {{tag.description}}
                 {{else}}
-                    A {{pagination.total}}-post collection
+                    Članaka u ovoj kategoriji: {{pagination.total}}
                 {{/if}}
             </h2>
         </div>

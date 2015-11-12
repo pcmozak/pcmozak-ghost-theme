@@ -3,7 +3,8 @@
    ========================================================================== */
 
 /*
-http://codepen.io/yoannhel/pen/sJpDj
+    http://codepen.io/yoannhel/pen/sJpDj submenu
+    http://codepen.io/nxworld/pen/OyRrGy - scroll down!
     0.  Normalize
     1.  Icons
     2.  General
@@ -775,9 +776,12 @@ body.nav-opened .nav {
 }
 
 .nav ul {
-    padding: 90px 9% 5%;
+    
+    text-align: center;
     list-style: none;
-    counter-reset: item;
+    margin: 0 auto;
+    padding-top: 50vh;
+    padding-left: 0;
 }
 
 .nav li:before {
@@ -794,11 +798,13 @@ body.nav-opened .nav {
     margin: 0;
 }
 .nav li a {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
     text-decoration: none;
     line-height: 1.4;
-    font-size: 1.4rem;
+    font-size: 3rem;
     display: block;
-    padding: 0.6rem 4%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1012,7 +1018,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 17rem;
+    font-size: 16rem;
     font-weight: 100;
     letter-spacing: -1px;
     font-family: "Mrs Sheppards", sans-serif;
@@ -1022,9 +1028,19 @@ body.nav-opened .nav {
 
 .page-description {
     margin: -1px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.5em;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.tag-counter {
+    position: relative;
+    margin: 24px;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: 600;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -1780,7 +1796,7 @@ body:not(.post-template) .post-title {
     .page-title {
         font-family: "Mrs Sheppards";
         font-weight: 100;
-        font-size: 10rem;
+        font-size: 14rem;
         letter-spacing: -1px;
         text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;
     }
