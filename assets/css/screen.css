@@ -1366,6 +1366,7 @@ body:not(.post-template) .post-title {
 .post-head.main-header {
     height: 65vh;
     min-height: 180px;
+    background-size: cover;
 }
 
 .no-cover.post-head.main-header {
@@ -1867,6 +1868,7 @@ body:not(.post-template) .post-title {
 
     .post-head.main-header {
         height:45vh;
+        background-size: cover;
     }
 
     .tag-head.main-header,
@@ -2143,6 +2145,7 @@ body:not(.post-template) .post-title {
 
     .post-head.main-header {
         height: 30vh;
+        background-size: cover;
     }
 
     .tag-head.main-header,
