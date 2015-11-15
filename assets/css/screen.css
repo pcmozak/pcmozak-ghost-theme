@@ -932,6 +932,17 @@ body.nav-opened .nav {
     width: auto;
 }
 
+.meni-logo img  {
+    position: relative;
+    background: none !important; /* Makes sure there is never a background */
+    border: none !important; /* Makes sure there is never a border */
+    text-align: center;
+    box-sizing: border-box;
+    height: 48px;
+    padding: 1px 0 5px 0;
+    width: auto;
+}
+
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1205,7 +1216,9 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-template .post-header {
-   margin-bottom: 3.4rem;
+   margin-top: 25%;
+   color: rgba(255, 255, 255, 0.5);
+   text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;
 }
 
 .post-template .post-title {
